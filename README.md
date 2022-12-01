@@ -1,40 +1,34 @@
-# codedamn - Hulu clone Landing Page
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![Design for the project](https://raw.githubusercontent.com/codedamn-projects/hulu-clone-project/main/assets/desktop-design-non-fs.jpg)
+## Getting Started
 
-## Hello developer!
+First, run the development server:
 
-This is one of the many projects available on [codedamn](https://codedamn.com/projects) to reinforce your learning by building. If you want to become a frontend developer and learn by practicing, feel free to attempt this challenge. Feel free to check out the codedamn [frontend web developer learning path](https://codedamn.com/learning-paths) to learn more about how to become an awesome frontend developer.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## Instructions
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Your challenge is to build out this project and get it looking as close to the design as possible.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-Your project should:
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
--   Be responsive for desktop and mobile phones
--   Have minimum functionalities and effects working
+## Learn More
 
-Want some support on the challenge? [Join our discord community](https://cdm.sh/discord) and ask questions in the **#general** channel.
+To learn more about Next.js, take a look at the following resources:
 
-## Where to find everything
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Your task is to build out the project as per the provided screenshots. You will find both a mobile and a desktop version of the design.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-The designs are in image formats (sketch and figma designs coming soon).
+## Deploy on Vercel
 
-You will find all the required assets in the `/assets` folder. These include images, fonts, etc.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-There is also a `style-guide.html` file containing the information you'll need, such as color palette and font names. Make sure to open this in the browser to see the contents.
-
-## Submitting solution
-
-Submit your solution on the platform for the rest of the community to see. Find this project [on codedamn projects page]($https://codedamn.com/projects) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Send feedback!
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please visit [codedamn feedback page](https://codedamn.com/contact)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
